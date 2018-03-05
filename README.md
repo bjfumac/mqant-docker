@@ -28,5 +28,6 @@ sudo docker exec mqantserver sh start.sh
 *(You should run this line to recompile after you edit the local mqantserver files)*
 
 **4.Test**
+
 Use your browser to access http://127.0.0.1:8080/mqant/chat/index.html
 

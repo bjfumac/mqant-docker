@@ -23,3 +23,6 @@ sudo docker run --name mqantserver -p 8080:8080 -p 3653:3653 -v ~/mqantserver:/m
 
 sudo docker exec mqantserver sh start.sh
 
+4.Test
+Use your browser to access http://127.0.0.1:8080/mqant/chat/index.html
+

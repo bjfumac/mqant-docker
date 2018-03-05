@@ -20,6 +20,7 @@ sudo docker build -t="bjfumac/mqant" .
 3.Run
 
 sudo docker run --name mqantserver -p 8080:8080 -p 3653:3653 -v ~/mqantserver:/mqantserver -idt bjfumac/mqant
+
 (Change ~/mqantserver to your local mqantserver files path in step 1)
 
 sudo docker exec mqantserver sh start.sh

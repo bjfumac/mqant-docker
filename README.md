@@ -29,7 +29,8 @@ sudo docker exec mqantserver sh start.sh
 Use your browser to access http://127.0.0.1:8080/mqant/chat/index.html
 
 **5.Other**  
-After you run the test successfully.You can start/stop the server by these commands below  *(You should restart server after you edit the local mqantserver files for recompiling)*:  
+After you run the test successfully.You can start/stop the server by these commands below  
+*(You should restart server after you edit the local mqantserver files for recompiling)*:  
 Stop server:  
 sudo docker stop mqantserver  
 

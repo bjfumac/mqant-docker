@@ -1,5 +1,5 @@
 # mqant-docker
-A docker image for mqant framework
+A docker image for the distributed game server : mqant
 
 **1. Download mqantserver files and edit config**
 ```

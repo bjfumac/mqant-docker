@@ -40,6 +40,8 @@ WORKDIR /
 
 EXPOSE 8080 
 EXPOSE 3653
+EXPOSE 7700
+EXPOSE 7701
 
 ADD start.sh /start.sh
 RUN chmod 777 /start.sh

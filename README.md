@@ -1,20 +1,16 @@
 # mqant-docker
-A docker image for the distributed game server : mqant
+A docker image for the distributed game server : [mqant](https://github.com/liangdas/mqant)
 
 **1. Download mqantserver files and edit config**
 ```
-cd /
-git clone https://github.com/liangdas/mqantserver.git
+cd /;git clone https://github.com/liangdas/mqantserver.git
 
 # Open mqantserver/bin/conf/server.json ,serach key "StaticPath" and modify the value to "/mqantserver/bin"
 ```
 
 **2. Setup docker image**
 ```
-cd /
-git clone https://github.com/bjfumac/mqant-docker.git
-cd mqant-docker
-sudo docker build -t="bjfumac/mqant" .
+cd /;git clone https://github.com/bjfumac/mqant-docker.git;cd mqant-docker;sudo docker build -t="bjfumac/mqant" .;
 ```
 
 **3. Run**
